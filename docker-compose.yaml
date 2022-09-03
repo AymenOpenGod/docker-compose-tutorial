@@ -1,0 +1,33 @@
+version: '3'
+services:
+  mydatabase:
+    image: mysql:latest
+    volumes:
+      - data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: tutorial
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+  
+  myback:
+    build: back
+    depends_on:
+        - mydatabase
+    ports:
+        - "8080:80"
+    volumes:
+        - ./back/vhosts:/etc/apache2/sites-enabled
+        - ./:/var/www
+
+  myfront:
+    build: front
+    ports:
+        - "3000:3000"
+    volumes:
+        - ./front:/var/www/front
+
+volumes:
+  data:
