@@ -1,0 +1,429 @@
+    1  curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add –
+    2  curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add 
+    3  sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
+    4  sudo apt update
+    5  sudo apt install teams
+    6  ls
+    7  sudo apt install playonlinux
+    8  sudo apt install winbind
+    9  sudo snap install prospect-mail
+   10  prospect-mail
+   11  sudo prospect-mail
+   12  docker
+   13  docker ps
+   14  make
+   15  get
+   16  git
+   17  pwd
+   18  ram
+   19  ls
+   20  pwd
+   21  mkdir project
+   22  cd project/
+   23  ssh key-gen
+   24  shh-keygen
+   25  ssh-keygen
+   26  cat home/local/JEMS/afathallah/.ssh/id_rsa.pub
+   27  cat /home/local/JEMS/afathallah/.ssh/id_rsa.pub
+   28  git clone git@gitlab.jems-group.com:afathallah/plant-control-tower.git
+   29  ls
+   30  cd plant-control-tower/
+   31  ls
+   32  docker-engine
+   33  docker-compose
+   34  make
+   35  bash
+   36  bash -v
+   37  bash --version
+   38  sed
+   39  grep
+   40  make .env
+   41  ls
+   42  make .env
+   43  cd ..
+   44  ls
+   45  cat ls
+   46  echo ls
+   47  ls
+   48  git clone git@gitlab.jems-group.com:afathallah/plant-control-tower-back.git
+   49  git clone git@gitlab.jems-group.com:afathallah/plant-control-tower-front.git
+   50  ls
+   51  make .env
+   52  . .env
+   53  echo $IP www-plant-control-tower.renault.dev.brocelia.net api-plant-control-tower.renault.dev.brocelia.net | sudo tee -a /etc/hosts
+   54  . .env
+   55  open http://$IP
+   56  echo $IP
+   57  ls
+   58  make .env
+   59  cd plant-control-tower
+   60  ls
+   61  make
+   62  . .env
+   63  make up
+   64  cd ..
+   65  ls
+   66  plant-control-tower-front/
+   67  cd plant-control-tower-front/
+   68  ls
+   69  npm start
+   70  sudo apt install npm
+   71  npm start
+   72  npm run build
+   73  npm 
+   74  npm test
+   75  docker ps
+   76  make .env
+   77  sudo update-locale LANG=en_US.UTF-8
+   78  pwd
+   79  ls
+   80  cd project/
+   81  ls
+   82  cd plant-control-tower-front/
+   83  ls
+   84  npm start
+   85  cd ..
+   86  ls
+   87  cd plant-control-tower
+   88  ls
+   89  make build
+   90  git branch
+   91  make build Makefile
+   92  make up
+   93  make docker-up-force
+   94  make docker-update
+   95  .bin/php -v
+   96  .bin/composer install
+   97  .docker/exec db mysql
+   98  ...
+   99  docker-compose up
+  100  docker ps
+  101  pwd
+  102  make up
+  103  docker-engine
+  104  sudo update-locale LANG=en_US.UTF-8
+  105  docker-engine
+  106  sudo snap install --classic code
+  107  code .
+  108  cd project/
+  109  ls
+  110  cd plant-control-tower
+  111  ls
+  112  docker-engine
+  113  sudo nano /etc/default/locale
+  114  sudo nano ~/.pam_environment
+  115  locale
+  116  ls
+  117  npm run build
+  118  cd ..
+  119  ls
+  120  cd plant-control-tower
+  121  cd ..
+  122  cd plant-control-tower-front/
+  123  ls
+  124  npm run build
+  125  npm install -g react-scripts
+  126  sudo npm install -g react-scripts
+  127  npm run build
+  128  rm -rf node_modules
+  129  rm package-lock.json
+  130  npm install
+  131  npm run build
+  132  m -rf node_modules
+  133  rm -rf node_modules
+  134  npm cache clean --force
+  135  npm install
+  136  npm run build
+  137  npm update jest-worker
+  138  npm run build
+  139  npm cache clean --force
+  140  rm -rf node_modules
+  141  rm package-lock.json
+  142  npm install
+  143  rm -rf node_modules
+  144  rm package-lock.json
+  145  npm install
+  146  docker ps
+  147  cd ..
+  148  ls
+  149  cd plant-control-tower
+  150  ls
+  151  npm run build
+  152  make build
+  153  make build dev/docker
+  154  make build all
+  155  make build .docker/prepare.sh
+  156  git clone git@gitlab.jems-group.com:afathallah/plant-control-tower-front.git
+  157  git clone git@gitlab.jems-group.com:afathallah/plant-control-tower-back.git
+  158  ls
+  159  make build
+  160  make build plant-control-tower-front
+  161  make up
+  162  ls
+  163  make -v
+  164  ls
+  165  sdd
+  166  sudo nano /etc/default/locale
+  167  sudo nano ~/.pam_environment
+  168  sudo update-locale LANG=en_US.UTF-8
+  169  history
+  170  sudo apt-get install console-data
+  171  sudo dpkg-reconfigure keyboard-configuration
+  172  setxkbmap fr -variant azerty
+  173  pwd
+  174  mkdir project-1
+  175  cd project-1/
+  176  git clone git@github.com:AymenOpenGod/docker-compose-tutorial.git
+  177  ls
+  178  git clone git@github.com:AymenOpenGod/docker-compose-tutorial.git
+  179  git clone https://github.com/AymenOpenGod/docker-compose-tutorial.git
+  180  ls
+  181  cd docker-compose-tutorial/
+  182  ls
+  183  docker compose build
+  184  docker ps
+  185  docker compose up
+  186  docker ps
+  187  ls
+  188  cat docker-compose.yaml 
+  189  docker ps
+  190  docker-compose up myfront
+  191  docker ps
+  192  docker compose down
+  193  docker compose up
+  194  docker ps
+  195  ls
+  196  cat docker-compose.yaml 
+  197  ls
+  198  cd front/
+  199  ls
+  200  cat Dockerfile 
+  201  cd ..
+  202  docker-compose run myfront
+  203  ls
+  204  cd front/
+  205  docker-compose run myfront
+  206  cd ..
+  207  docker-compose run myfront
+  208  ls
+  209  cd front/
+  210  ls
+  211  vi package.json 
+  212  docker-compose build myfront
+  213  npm install -g npm@9.6.1
+  214  sudo software-center
+  215  sudo apt-get install software-center
+  216  gnome-software
+  217  code
+  218  code .
+  219  cd ..
+  220  ls
+  221  cd afathallah/
+  222  code .
+  223  code --verbose
+  224  snap run code
+  225  snap connect code:removable-media
+  226  snap run code
+  227  ls
+  228  cd project
+  229  ls
+  230  ¤
+  231  code .
+  232  sudo code .
+  233  ls
+  234  cd project
+  235  ls
+  236  cd plant-control-tower
+  237  ls
+  238  cd ..
+  239  ls
+  240  cd project-1/
+  241  ls
+  242  cd ..
+  243  ls
+  244  rm -rf project-1/
+  245  ls
+  246  git clone https://github.com/AymenOpenGod/docker-compose-tutorial.git
+  247  ls
+  248  cd docker-compose-tutorial/
+  249  ls
+  250  docker-compose build
+  251  docker-compose up
+  252  docker exec docker-compose-tutorial_myback_1 composer create-project symfony/website-skeleton project
+  253  docker-compose down
+  254  cd ..
+  255  ls
+  256  cd project/
+  257  ls
+  258  cd plant-control-tower
+  259  make build up
+  260  make build -up
+  261  make docker-ps
+  262  ls
+  263  docker-compose up
+  264  docker ps
+  265  make build
+  266  make build up
+  267  make build build-prod
+  268  make plant-control-tower
+  269  make .
+  270  make docker-up-force
+  271  make .build
+  272  make
+  273  make up
+  274  make build front
+  275  ls
+  276  make build back
+  277  make back
+  278  make front
+  279  make -front
+  280  make plant-control-tower-front
+  281  make plant-control-tower-back
+  282  ls
+  283  cd ..
+  284  ls
+  285  cd ..
+  286  ls
+  287  cd docker-compose-tutorial/
+  288  ls
+  289  npx create-react-app front
+  290  node -v
+  291  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+  292  nvm install node
+  293  npm cache clean -f
+  294  sudo npm install -g n
+  295  sudo n latest 
+  296  node -v
+  297  docker ps -l
+  298  docker ps 
+  299  docker ps -al
+  300  docker ps -all
+  301  docker stats -all
+  302  docker stats --all
+  303  docker logs af833839fc11
+  304  ls
+  305  cd front/
+  306  ls
+  307  cat package.json 
+  308  docker-compose down
+  309  docker-compose up
+  310  docker-compose down
+  311  cd ..
+  312  cd back/
+  313  ls
+  314  cd project/
+  315  ls
+  316  cd ..
+  317  ls
+  318  cd ..
+  319  ls
+  320  cat package-lock.json 
+  321  docker ps
+  322  pwd
+  323  ls
+  324  cd back/
+  325  ls
+  326  cd ..
+  327  ls
+  328  docker-compose up
+  329  node -v
+  330  npx create-react-app front
+  331  ls
+  332  docker-compose up -d -build
+  333  docker-compose up -d --build
+  334  docker ps
+  335  docker status -all
+  336  docker status --all
+  337  docker ps -a
+  338  docker logs 2f4dccf852ba
+  339  docker-compose up
+  340  docker compose up -d
+  341  docker ps
+  342  docker exec docker-compose-tutorial-myback-1 composer create-project symfony/website-skeleton project
+  343  docker exec docker-compose-tutorial-myback-1
+  344  docker exec docker-compose-tutorial-myback-1 composer
+  345  docker exec docker-compose-tutorial-myback-1 composer create-project
+  346  docker exec docker-compose-tutorial-myback-1 composer create-project symfony/website-skeleton project
+  347  ls
+  348  docker exec docker-compose-tutorial-myback-1 composer create-project symfony/website-skeleton project2
+  349  ls
+  350  cd front/
+  351  ls
+  352  cd ..
+  353  cd back/
+  354  ls
+  355  cd project2/
+  356  ls
+  357  cd ..
+  358  ls
+  359  rm -rf project
+  360  ls
+  361  rm -rf project2
+  362  sudo rm -rf project2
+  363  ls
+  364  docker exec docker-compose-tutorial-myback-1 composer create-project symfony/website-skeleton project
+  365  ls
+  366  docker ps
+  367  docker exec -it docker-compose-tutorial-myback bash
+  368  docker exec -it ac0f83db3dc8  bash
+  369  cd ..
+  370  npx create-react-app front
+  371  ls
+  372  cd front/
+  373  ls
+  374  rm Dockerfile 
+  375  rm package-lock.json 
+  376  rm package.json 
+  377  rm -rf public/
+  378  rm -rm src/
+  379  rm -rf src/
+  380  ls
+  381  cd ..
+  382  npx create-react-app front
+  383  ls
+  384  cd front/
+  385  ls
+  386  cd ..
+  387  docker-compose up -d --build
+  388  ls
+  389  cd front/
+  390  ls
+  391  vi Dockerfile
+  392  cd ..
+  393  ls
+  394  docker-compose up -d --build
+  395  docker ps
+  396  ls
+  397  cd front/
+  398  ls
+  399  cd src/
+  400  ls
+  401  vi App.js 
+  402  ls
+  403  cd ..
+  404  ls
+  405  vi Makefile
+  406  make start
+  407  vi Makefile
+  408  make start
+  409  docker ps
+  410  docker-compose down
+  411  make start
+  412  vi Makefile 
+  413  make restart
+  414  vi Makefile 
+  415  make restart
+  416  vi Makefile 
+  417  make restart
+  418* 
+  419  docker ps
+  420  vi Makefile 
+  421  make stop
+  422  docker ps
+  423  make start
+  424  docker ps
+  425  make stop
+  426  make start
+  427  docker ps
+  428  history
+  429  history >> history.txt
